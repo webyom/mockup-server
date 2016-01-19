@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+/* global process */
+
+var config = require('../lib/config');
+
+if (config.h) {
+  console.log(config.argHelp());
+  process.exit(0);
+}
+
+require('../lib/index.js');

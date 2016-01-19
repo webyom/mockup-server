@@ -1,0 +1,7 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "path": "foo/_/bar/a=1&b=2.json"
+  }
+}

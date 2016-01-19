@@ -1,0 +1,29 @@
+{
+  "name": "mockup-server",
+  "version": "0.1.0",
+  "description": "A server use static files as restful api.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "./bin/mockup-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webyom/mockup-server.git"
+  },
+  "keywords": [
+    "mockup",
+    "server"
+  ],
+  "author": "Gary Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webyom/mockup-server/issues"
+  },
+  "homepage": "https://github.com/webyom/mockup-server#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "koa": "^1.1.2",
+    "lodash": "^4.0.0",
+    "yargs": "^3.32.0"
+  }
+}
