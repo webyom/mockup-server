@@ -9,4 +9,9 @@ if (config.h) {
   process.exit(0);
 }
 
+if (config.v) {
+  console.log(require('../package').version);
+  process.exit(0);
+}
+
 require('../lib/index.js');
