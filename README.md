@@ -18,6 +18,7 @@ Issue the command `./node_modules/.bin/mockup-server` in your project's director
 Command line parameters:
 
 * `-p, --port`            listening port [string] [default: "3008"]
+* `-o, --origin`          used as Access-Control-Allow-Origin, if can not inferred from refer [string] [default: "*"]
 * `-b, --base`            base dir for locating the api files, which is relative to `process.cwd()` [string] [default: "mockup-data"]
 * `-c, --context`         the context of the api [string] [default: ""]
 
