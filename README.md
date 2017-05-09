@@ -17,7 +17,7 @@ Issue the command `./node_modules/.bin/mockup-server` in your project's director
 
 Command line parameters:
 
-* `-p, --port`            listening port [string] [default: "3008"]
+* `-p, --port`            listening port [string] [default: "4080"]
 * `-o, --origin`          used as Access-Control-Allow-Origin, if can not inferred from refer [string] [default: "*"]
 * `-b, --base`            base dir for locating the api files, which is relative to `process.cwd()` [string] [default: "mockup-data"]
 * `-c, --context`         the context of the api [string] [default: ""]
@@ -39,6 +39,7 @@ Command line parameters:
     A list of query string name to be ignored.
 
 * `-t, --content-type`    default content-type of response header [string] [default: "application/json; charset=utf-8"]
+* `-x, --proxy-host`      miss matched request will be sent to proxy host
 * `-h, --help`            display usage hint
 * `-v, --version`         display version
 

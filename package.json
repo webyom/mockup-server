@@ -1,6 +1,6 @@
 {
   "name": "mockup-server",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "A server use static files as restful api.",
   "main": "lib/index.js",
   "bin": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/webyom/mockup-server#readme",
   "dependencies": {
     "chalk": "^1.1.1",
+    "co-request": "^0.2.0",
     "koa": "^1.1.2",
     "lodash": "^4.0.0",
     "yargs": "^3.32.0"
