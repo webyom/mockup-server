@@ -39,7 +39,7 @@ Command line parameters:
     A list of query string name to be ignored.
 
 * `-t, --content-type`    default content-type of response header [string] [default: "application/json; charset=utf-8"]
-* `-x, --proxy-host`      miss matched request will be sent to proxy host
+* `-x, --proxy-host`      miss matched request will be sent to proxy host, seperate mutiple hosts with white space
 * `-h, --help`            display usage hint
 * `-v, --version`         display version
 
