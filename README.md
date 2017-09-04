@@ -3,6 +3,8 @@ Mockup Server
 
 This is a development server use static files as restful api data source. Frontend developers can use this server as the beckend in the development phase.
 
+Support [mockjs](http://mockjs.com/) syntax for url with `.json` extension name.
+
 
 Installation
 ------------

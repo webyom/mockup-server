@@ -2,6 +2,7 @@
   "code": 0,
   "msg": "ok",
   "data": {
-    "path": "foo/bar.json"
+    "path": "foo/bar.json",
+    "ids|10": [1] // id list
   }
 }
