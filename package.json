@@ -1,6 +1,6 @@
 {
   "name": "mockup-server",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A server use static files as restful api.",
   "main": "lib/index.js",
   "bin": {
