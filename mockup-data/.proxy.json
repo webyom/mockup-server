@@ -1,0 +1,6 @@
+{
+  "host": {
+    "foo": "https://foo.mysite.com,https://foo-1.mysite.com",
+    "bar": ["https://bar.mysite.com", "https://bar-1.mysite.com"]
+  }
+}

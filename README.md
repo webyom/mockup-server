@@ -42,6 +42,7 @@ Command line parameters:
 
 * `-t, --content-type`    default content-type of response header [string] [default: "application/json; charset=utf-8"]
 * `-x, --proxy-host`      miss matched request will be sent to proxy host, seperate mutiple hosts with white space
+* `-d, --debug`           debug mode
 * `-h, --help`            display usage hint
 * `-v, --version`         display version
 
